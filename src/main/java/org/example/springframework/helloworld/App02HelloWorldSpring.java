@@ -6,7 +6,7 @@ public class App02HelloWorldSpring {
     public static void main(String[] args){
         //1: Launch a Spring Context
         try(
-      var context =  new AnnotationConfigApplicationContext(HelloWorldConfiguration.class);
+      var context =  new AnnotationConfigApplicationContext(HelloWorldConfiguration.class)
                 ){
         //2: Configure the things spring should manage -
         //HelloWorldConfiguration - @Configuration
